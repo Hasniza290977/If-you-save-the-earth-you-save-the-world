@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    
+}
+
+li {
+    vertical-align: middle;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    background: #333;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+.info-box {
+    background: #39ac39;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 5px solid #2d862d;
+}
+
+del,
+ins {
+  display: block;
+  text-decoration: none;
+  position: relative;
+}
+
+del{
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #1ac6ff;
+    border-left: 5px solid #00ace6;
+}  
+
+ins {
+    background-color: #ffffb3;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 5px solid #ffff80;
+}
+
+menu {
+    background-color: #cc6600;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 5px solid #994d00;
+}
+
+summary{
+    background-color: #ff4d4d;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 5px solid #ff0000;
+}
+
+legend {
+    background-color: #9370DB;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 5px solid #800080;
+}
+
+.activity-grid {
+    display: flex;
+    gap: 10px;
+}
+
+.activity {
+    flex: 1;
+    padding: 15px;
+    background: #93ffe8;
+    border: 1px solid #008b8b;
+    border-radius: 5px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
